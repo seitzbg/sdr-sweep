@@ -1,5 +1,17 @@
 # sdr-sweep
 
+> **➡️ Moved.** `sdr-sweep` now lives in the
+> [**sdr-tools**](https://github.com/seitzbg/sdr-tools) collection and is
+> maintained there. This repository is **archived** (read-only). Install from the
+> new home:
+>
+> ```sh
+> pipx install "git+https://github.com/seitzbg/sdr-tools.git#subdirectory=sdr-sweep"
+> ```
+>
+> Existing `git+https://github.com/seitzbg/sdr-sweep.git` installs keep working —
+> an archived repo stays cloneable.
+
 Wideband spectrum monitoring for the **USRP B210** (UHD): sweep a frequency
 range over time and find noise-floor drift, band occupancy, and
 intermittent/persistent emitters. Five small tools around one shared data format
